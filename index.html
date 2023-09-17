@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOGIN FORM</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./js/index.js" defer ></script>
+  
+  </head>
+  <body class="is-light" >
+    <!-- login page begin -->
+    <section>
+      <label id="switchLabel">
+        <input type="checkbox" id="themeSwitch">
+        <span class="slider"></span>
+    </label>
+    <div class="content-form">
+      <section class="container">
+        <!-- form begin-->
+        <form>
+          <label class="email" for="email">Email:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="ex. ogmmrwrm@gmail"
+          />
+          <br />
+          <label class="pass" for="pass">Password</label><br />
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="ex. 123455" 
+            
+          />
+
+          <div class="forgot">
+            <p>forgot password</p>
+          </div>
+        </form>
+
+        <button class="btn"><a href="./enterPage.html">Sign in</button></a>
+        <p class="or-enter">or</p>
+        <div class="btn-form">
+          <button class="btn-google">
+            <img src="./img/Vector.png" alt="google-vector" />Sign in with
+            google
+          </button>
+          <button class="btn-instagram">
+            <img src="./img/Vector1.png" al t="instagram-vector" />Sign in
+            with instagram
+          </button>
+        </div>
+      </section>
+    </div>
+  </section>
+  </body>
+</html>
